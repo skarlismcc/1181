@@ -9,11 +9,11 @@
     try {
       // -------------------- Data --------------------
       const TOP_NAV = [
-        { label: "Home",           href: "/index.html" },
-        { label: "Calendar",       href: "/calendar/index.html" },
-        { label: "Assignments",    href: "/assignments/index.html" },
-        { label: "Class Policies", href: "/policies/index.html" },
-        { label: "Resources",      href: "/resources/index.html" }
+        { label: "Home",           href: "/1181/index.html" },
+        { label: "Calendar",       href: "/1181/calendar/index.html" },
+        { label: "Assignments",    href: "/1181/assignments/index.html" },
+        { label: "Class Policies", href: "/1181/policies/index.html" },
+        { label: "Resources",      href: "/1181/resources/index.html" }
       ];
 
       const SIDENAV = [
@@ -21,50 +21,50 @@
           label: "Assignments",
           href: "/assignments/index.html",
           children: [
-            { label: "Introduction Assignment", href: "/assignments/introduction.html" },
-            { label: "Tech-free Writing", href: "/assignments/tech-free-writing.html"},
+            { label: "Introduction Assignment", href: "/1181/assignments/introduction.html" },
+            { label: "Tech-free Writing", href: "/1181/assignments/tech-free-writing.html"},
             {
               label: "Weekly Writing",
-              href: "/assignments/weeklywriting.html",
+              href: "/1181/assignments/weeklywriting.html",
               children: Array.from({ length: 9 }, (_, i) => ({
                 label: `Weekly Writing ${i + 1}`,
-                href: `/assignments/ww${i + 1}.html`
+                href: `/1181/assignments/ww${i + 1}.html`
               }))
             },
             { label: "Macomb Scavenger Hunt", href: "/assignments/msh.html" },
             {
               label: "Project 1: Genre Analysis",
-              href: "/assignments/project1.html",
+              href: "/1181/assignments/project1.html",
               children: [
-                { label: "Genre Analysis Essay",       href: "/assignments/genre-analysis.html" },
-                { label: "Rough Draft",                href: "/assignments/rough-draft.html" },
-                { label: "Peer Review",                href: "/assignments/peer-review.html" },
-                { label: "Revised Draft",              href: "/assignments/revised-draft.html" },
-                { label: "Self-Eval & Reflection",     href: "/assignments/reflection.html" },
-                { label: "Individual Conferences",     href: "/assignments/conferences.html" },
-                { label: "Example Organization",       href: "/assignments/p1-example-organization.html" },
-                { label: "Example Essays",             href: "/assignments/example-p1.html" },
-                { label: "MLA Style & Citations",      href: "/assignments/mla-style.html" }
+                { label: "Genre Analysis Essay",       href: "/1181/assignments/genre-analysis.html" },
+                { label: "Rough Draft",                href: "/1181/assignments/rough-draft.html" },
+                { label: "Peer Review",                href: "/1181/assignments/peer-review.html" },
+                { label: "Revised Draft",              href: "/1181/assignments/revised-draft.html" },
+                { label: "Self-Eval & Reflection",     href: "/1181/assignments/reflection.html" },
+                { label: "Individual Conferences",     href: "/1181/assignments/conferences.html" },
+                { label: "Example Organization",       href: "/1181/assignments/p1-example-organization.html" },
+                { label: "Example Essays",             href: "/1181/assignments/example-p1.html" },
+                { label: "MLA Style & Citations",      href: "/1181/assignments/mla-style.html" }
               ]
             },
             { 
               label: "Project 2: Genre Remix", 
               href: "/assignments/p2.html", 
               children: [
-                { label: "Project 2 Overview",    href: "/assignments/p2.html"},
-                { label: "Genre Remix",           href: "/assignments/p2-remix.html"},
-                { label: "Poster Presentation",   href: "/assignments/p2-poster.html"},
-                { label: "Design Resources",      href: "/assignments/p2-design-resources.html"},
-                { label: "Example Projects",      href: "/assignments/example-p2.html"}
+                { label: "Project 2 Overview",    href: "/1181/assignments/p2.html"},
+                { label: "Genre Remix",           href: "/1181/assignments/p2-remix.html"},
+                { label: "Poster Presentation",   href: "/1181/assignments/p2-poster.html"},
+                { label: "Design Resources",      href: "/1181/assignments/p2-design-resources.html"},
+                { label: "Example Projects",      href: "/1181/assignments/example-p2.html"}
               ]
             },
             { label: "Final Portfolio",        
               href: "/assignments/final-portfolio.html",
               children: [
-                { label: "Final Portfolio Overview",    href: "/assignments/final-portfolio.html"},
-                { label: "Final Genre Analysis Essay",  href: "/assignments/final-genre-analysis.html"},
-                { label: "AI & Writing Listicle",       href: "/assignments/listicle.html"},
-                { label: "Class Reflection",            href: "/assignments/class-reflection.html"}
+                { label: "Final Portfolio Overview",    href: "/1181/assignments/final-portfolio.html"},
+                { label: "Final Genre Analysis Essay",  href: "/1181/assignments/final-genre-analysis.html"},
+                { label: "AI & Writing Listicle",       href: "/1181/assignments/listicle.html"},
+                { label: "Class Reflection",            href: "/1181/assignments/class-reflection.html"}
               ]
             }
             
@@ -74,63 +74,63 @@
           label: "Resources",
           href: "/resources/index.html",
           children: [
-            { label: "Technology & Tech Support", href: "/resources/technology.html" },
-            { label: "Example Assignments",       href: "/resources/example-assignments.html" },
+            { label: "Technology & Tech Support", href: "/1181/resources/technology.html" },
+            { label: "Example Assignments",       href: "/1181/resources/example-assignments.html" },
             { 
               label: "Generative AI",       
               href: "/resources/gen-ai-considerations.html",
 
               children: [
-                {label: "GenAI Considerations",     href: "/resources/gen-ai-considerations.html"},
-                {label: "GenAI Brainstorming",      href: "/resources/gen-ai-brainstorming.html"},
-                {label: "GenAI Revision",           href: "/resources/gen-ai-revision.html"},
-                {label: "GenAI Tools",              href: "/resources/gen-ai-tools.html"},
-                {label: "GenAI Transparency",       href: "/resources/gen-ai-transparency.html"}
+                {label: "GenAI Considerations",     href: "/1181/resources/gen-ai-considerations.html"},
+                {label: "GenAI Brainstorming",      href: "/1181/resources/gen-ai-brainstorming.html"},
+                {label: "GenAI Revision",           href: "/1181/resources/gen-ai-revision.html"},
+                {label: "GenAI Tools",              href: "/1181/resources/gen-ai-tools.html"},
+                {label: "GenAI Transparency",       href: "/1181/resources/gen-ai-transparency.html"}
               ]
               },
               { 
               label: "Revising Your Writing",       
               href: "/resources/revising/index.html",
               children: [
-                {label: "Revision Overview",    href: "/resources/revising/index.html"},
-                {label: "Revision & Rhetoric",  href: "/resources/revising/revising-rhetorical.html"},
-                {label: "Revision & Feedback",  href: "/resources/revising/revising-and-feedback.html"},
-                {label: "Clarity & Flow",       href: "/resources/revising/clarity-and-flow.html"},
-                {label: "Paragraphs & Transitions",  href: "/resources/revising/paragraphs-and-transitions.html"},
-                {label: "Reverse Outline",      href: "/resources/revising/reverse-outline.html"},
-                {label: "Paper Skeleton",       href: "/resources/revising/paper-skeleton.html"},
-                {label: "Proofreading & LOCs",       href: "/resources/revising/proofreading.html"}
+                {label: "Revision Overview",    href: "/1181/resources/revising/index.html"},
+                {label: "Revision & Rhetoric",  href: "/1181/resources/revising/revising-rhetorical.html"},
+                {label: "Revision & Feedback",  href: "/1181/resources/revising/revising-and-feedback.html"},
+                {label: "Clarity & Flow",       href: "/1181/resources/revising/clarity-and-flow.html"},
+                {label: "Paragraphs & Transitions",  href: "/1181/resources/revising/paragraphs-and-transitions.html"},
+                {label: "Reverse Outline",      href: "/1181/resources/revising/reverse-outline.html"},
+                {label: "Paper Skeleton",       href: "/1181/resources/revising/paper-skeleton.html"},
+                {label: "Proofreading & LOCs",       href: "/1181/resources/revising/proofreading.html"}
               ]
               },
             { 
               label: "In-Class Activities",       
               href: "/resources/inclass/index.html",
               children: [
-                {label: "In-Class Activities",  href: "/resources/in-class/index.html"},
-                {label: "Team Names",           href: "/resources/in-class/team-names.html"},
-                {label: "GenAI Tools",          href: "/resources/in-class/gen-ai-tools.html"},
-                {label: "AI Ethics Debate",     href: "/resources/in-class/ai-ethics-debate.html"},
-                {label: "AI Human vs. AI",      href: "/resources/in-class/ai-human-vs-ai.html"},
-                {label: "Different Audiences",  href: "/resources/in-class/different-audiences.html"},
-                {label: "The Smartest Move",    href: "/resources/in-class/the-smartest-move.html"},
-                {label: "Example News",         href: "/resources/in-class/example-news.html"},
-                {label: "Children's Books",     href: "/resources/in-class/childrens-books.html"},
-                {label: "Newsletters",          href: "/resources/in-class/newsletters.html"},
-                {label: "Genre Scavenger Hunt", href: "/resources/in-class/genre-scavenger-hunt.html"},
-                {label: "Magazine Ads",         href: "/resources/in-class/analyzing-ads.html"}
+                {label: "In-Class Activities",  href: "/1181/resources/in-class/index.html"},
+                {label: "Team Names",           href: "/1181/resources/in-class/team-names.html"},
+                {label: "GenAI Tools",          href: "/1181/resources/in-class/gen-ai-tools.html"},
+                {label: "AI Ethics Debate",     href: "/1181/resources/in-class/ai-ethics-debate.html"},
+                {label: "AI Human vs. AI",      href: "/1181/resources/in-class/ai-human-vs-ai.html"},
+                {label: "Different Audiences",  href: "/1181/resources/in-class/different-audiences.html"},
+                {label: "The Smartest Move",    href: "/1181/resources/in-class/the-smartest-move.html"},
+                {label: "Example News",         href: "/1181/resources/in-class/example-news.html"},
+                {label: "Children's Books",     href: "/1181/resources/in-class/childrens-books.html"},
+                {label: "Newsletters",          href: "/1181/resources/in-class/newsletters.html"},
+                {label: "Genre Scavenger Hunt", href: "/1181/resources/in-class/genre-scavenger-hunt.html"},
+                {label: "Magazine Ads",         href: "/1181/resources/in-class/analyzing-ads.html"}
               ]
               },
-              {label: "Additional Readings & Videos",  href: "/resources/additional-readings-and-videos.html"},
-              {label: "Letters of Recommendation",  href: "/resources/letters-of-recommendation.html"}
+              {label: "Additional Readings & Videos",  href: "/1181/resources/additional-readings-and-videos.html"},
+              {label: "Letters of Recommendation",  href: "/1181/resources/letters-of-recommendation.html"}
           ]
         },
         {
           label: "Calendars",
           href: "/calendar/index.html",
           children: [
-            { label: "M/W Class",              href: "/calendar/mw-calendar.html" },
-            { label: "T/Th Class",             href: "/calendar/tth-calendar.html" },
-            { label: "Tuesday Class (Hybrid)", href: "/calendar/tues-calendar.html" }
+            { label: "M/W Class",              href: "/1181/calendar/mw-calendar.html" },
+            { label: "T/Th Class",             href: "/1181/calendar/tth-calendar.html" },
+            { label: "Tuesday Class (Hybrid)", href: "/1181/calendar/tues-calendar.html" }
           ]
         },
         {
@@ -140,19 +140,19 @@
             { label: "Class Information",
               href: "/assignments/class-overview.html",
               children: [
-              { label: "Class Overview",            href: "/policies/class-overview.html" },
-              { label: "Office Hours",              href: "/policies/office-hours.html" },
-              { label: "Virtual Office Hours",      href: "/policies/virtual-office-hours.html" },
-              { label: "Frequently Asked Quetions", href: "/policies/faqs.html" }
+              { label: "Class Overview",            href: "/1181/policies/class-overview.html" },
+              { label: "Office Hours",              href: "/1181/policies/office-hours.html" },
+              { label: "Virtual Office Hours",      href: "/1181/policies/virtual-office-hours.html" },
+              { label: "Frequently Asked Quetions", href: "/1181/policies/faqs.html" }
               ]
             },
             { label: "Class Policies",
               children: [
-              { label: "Attendance",                href: "/policies/attendance.html" },
-              { label: "Late Work Policy",          href: "/policies/late-work.html" },
-              { label: "Academic Integrity Policy", href: "/policies/academic-integrity.html" },
-              { label: "GenAI Policy",              href: "/policies/gen-ai-policy.html" },
-              { label: "Grading",                   href: "/policies/grading.html" }
+              { label: "Attendance",                href: "/1181/policies/attendance.html" },
+              { label: "Late Work Policy",          href: "/1181/policies/late-work.html" },
+              { label: "Academic Integrity Policy", href: "/1181/policies/academic-integrity.html" },
+              { label: "GenAI Policy",              href: "/1181/policies/gen-ai-policy.html" },
+              { label: "Grading",                   href: "/1181/policies/grading.html" }
                 ]
             },
           ]
